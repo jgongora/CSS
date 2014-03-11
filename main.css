@@ -1,0 +1,21 @@
+.testbox{
+	background: green;
+	border: 2px solid black;
+	padding: 15px;
+	text-align: center;
+	margin: 20px 5px;
+	width: 200px;
+	-webkit-transition: width 3s, color 2s, -webkit-transform 2s;
+
+}
+.testbox:hover{
+	width: 600px;
+	color: red;
+	-webkit-transform: rotate(360deg);
+}
+
+#texto{
+	 font: bold 30px Tahoma;
+	 width: 100%;
+
+}
